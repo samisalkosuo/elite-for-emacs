@@ -1,0 +1,33 @@
++---------------Commander------------------------------+----------------LAVE TL:5 Rich Agri Dictatorship---------+
+|                                                      | Food           3.6   16t      Equipment list here       |
+|                                                      | Textiles       6.0   15t                                |
+|                                                      | Radioactives   20.0   17                                |
+|                                                      | Slaves         6.0   0t                                 |
+|                                                      | Liquor/Wines   23.2   20                                |
+|                                                      | Luxuries       94.4   14                                |
+|                                                      | Narcotics      49.6   55                                |
+|                                                      | Computers      89.6   0t                                |
+|                                                      | Machinery      58.8   10                                |
+|                                                      | Alloys         33.2   12                                |
+|                                                      | Firearms       75.6   0t                                |
+|                                                      | Furs           52.4   9t                                |
+|                                                      | Minerals       10.8   58                                |
+|                                                      | Gold           36.8   7k                                |
+|----------------Messages------------------------------| Platinum       64.4   1k                                |
+|all messages here, buy goods info etc                 | Gem-Strones    16.0   0g                                |
+|                                                      | Alien Items    51.2   0t                                |
+|                                                      |                                                         |
+|                                                      | * LAVE TL:  5    Rich Agri     Dictatorship (0.0 LY)    |
+|                                                      | * REORTE TL:  6    Poor Agri     Dictatorship (4.4 LY   |
+|                                                      | * RIEDQUAT TL:  4    Poor Agri          Anarchy (6.9 LY)|
+|                                                      | * LEESTI TL: 11     Poor Ind  Corporate State (3.8 LY)  |
+|                                                      | * ZAONCE TL: 12  Average Ind  Corporate State (5.7 LY)  |
+|                                                      | * DISO TL:  8 Average Agri        Democracy (3.6 LY)    |
+|                                                      | * ORERVE TL:  6   Mainly Ind           Feudal (6.8 LY)  |
+|                                                      |                                                         |
+|                                                      |                                                         |
+|                                                      |                                                         |
+|                                                      |                                                         |
+|                                                      |                                                         |
+|                                                      |                                                         |
++------------------------------------------------------+---------------------------------------------------------+

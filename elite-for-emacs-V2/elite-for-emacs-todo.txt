@@ -1,0 +1,100 @@
+Project plan (do not deviate!!!):
+  1. easy upgrade of commanders when commander struct changes, must be transparent to user 
+     (1st version done 19.2.2003)
+  2. basic online functionality
+     -register new commander (done)
+     -server side functionality (done: load,save,buy,sell, fluct is on the server, commanders data persistent 
+      in server)
+     -leave messages in local message boards (done)
+     -limit messages in 20 per system (done)
+     -basic info of other commanders (done number of commanders, name,credits,last known system)
+     -test online w/ linux, get-url-content \n vs \r\n
+  3. HOMEPAGE AND DEPLOYMENT TO ELITE-FOR-EMACS.ORG
+     -no  online, version 0.1, make package, do homepage!!!!!!!
+
+     -homepage: weather ticker some interesting places (meaning places i've been..) wunderground.com
+     -links
+     -story of elite for emacs, why version change, basic features, other emacs packages
+     -test online w/ proxy
+  4. equipment: trade history/trade analyzer, what bought,where,totall sum/bought/revenue,track prices of
+     up to three items: lave gold x.c zsonec gold xx,isinor gold xx
+     current cargo bought sum, how much to get if sell in current system
+  5.
+  6.
+  7.
+  8.
+
+
+
+
+-design
+  -online multiplayer, over http, servlet/cgi, protocol, what to do on server (market, ai movement etc)
+  -extensible, easy to add new functionality, equipment, commands, storylines
+  -everything should be in commander struct and every ai/human commander are in one list
+  
+-todo
+  -ai commanders
+     -todo rules for trading, combat, multiplication
+     -kwisatz haderach
+  -equipment, laser, 
+  -trade history
+  -ships log, planets visited etc
+  -combat
+  -people
+  -random effects in universe
+  -bulletin board, includes missions etc
+  -message board, includes messages
+  -send email to other commanders	
+  -d&d character lisp version + add to some stations command where commander can
+   test him/herself, like tarot card reader
+  -missions, delivery, thief, assassination, detective missions (find person  etc
+  -special missions, each special missions result is something unique
+   like navy galactic hyperdrive, system destruction, etc.
+  -reputation
+  -stickman animation w/ right on commander
+  -thargoids, war, invasion
+  -elections?, elect galaxy governor, universe president?
+    -what this would affect?
+      -a few candidates, right,center,left parties? each have different agenda
+      -
+  -conspiracies that affect for example prices of some product
+  -buy new ships
+  -stealth device, expensive, no one sees, allows users to travel without combat
+  -ships from elite/frontier
+  -restructure code, file per state (..-commands-common.el, -commands-docked.el,etc)
+  -dynamic universe
+     -planet economy/government changes
+     -todo rules
+       -market changes based on productivity, bought, sold
+       -market prices fixed for 30 days, then price check based on bought/sold
+
+
+-online (multiplayer)
+  -server hold market info, change market prices once per real time hour or somethin like that
+  -server hold commander info
+  -server has variable and calculations is done always on the client
+  -todo easy/transparent upgrade to new version when commander struct changes (1st version done 19.2.2003)
+  -message board in systems
+    -local,galactic,universal messages
+    -"message" command to  users can send local messages
+    -galactic/unviersal message only for me
+  -email
+  -list of commanders, ranking of commanders  
+  -versioning so that multiple elite versions can exist at the sametime..
+    
+  -to be considered: competitions in online, first who visits every system gets elite-for-emacs.org email
+
+
+ o   \ o /  _ o         __|   
+/|\    |     /\   ___\o   \o 
+/ \   / \   | \  /)  |    ( \
+
+\ /     |__        o _  \ o /   o
+ |    o/    o/__   /\     |    /|\
+/o\  / )    |  (\  / |   / \   / \
+
+<A HREF="http://brunching.com/toys/cyborger.html"><IMG SRC="http:// www.brunching.com/cybimages/E/cyb-ELITE.gif" WIDTH=240 HEIGHT=150 ALT="Electronic Lifeform Intended for Troubleshooting and Exploration" BORDER=0></A>
+
+<A HREF="http://brunching.com/toys/cyborger.html"><IMG SRC="http:// www.brunching.com/cybimages/F/cyb-FOR.gif" WIDTH=240 HEIGHT=150 ALT="Facsimile Optimized for Repair" BORDER=0></A>
+
+<A HREF="http://brunching.com/toys/cyborger.html"><IMG SRC="http:// www.brunching.com/cybimages/E/cyb-EMACS.gif" WIDTH=240 HEIGHT=150 ALT="Electronic Mechanical Android Calibrated for Sabotage" BORDER=0></A>

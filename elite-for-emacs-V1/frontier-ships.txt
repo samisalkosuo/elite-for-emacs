@@ -1,0 +1,118 @@
+FRONTIER - ELITE I I SHIP INFORMATION
+
+Ship	EscCap	IntShu	Lifter	Osprey	Falcon	Hawk	Kestrl	Eagle1	Eagle2	Eagle3	Sdwndr
+Hull Mass	1t	4t	3t	4t	5t	11t	11t	5t	6t	8t	8t
+Mass (full)	5t	8t	10t	15t	16t	18t	20t	25t	28t	30t	33t
+Internal Cap	4t	4t	7t	11t	11t	7t	9t	20t	22t	22t	25t
+Retro Thr.  Acc	2g	3g	2g	8g	9g	6g	6g	10g	4g	15.1g	12.1g
+Main Thr.  Acc	3g	5g	4g	27.2g	30.2g	27.2g	25.2g	25.2g	28.2g	28.2g	23.2g
+Gun Mounts	0	0	0	1	1	1	1	1	1	1	1
+Scoop Mount	no	no	no	no	no	no	no	no	no	no	yes
+Missile Pylons	0	0	0	2	2	2	2	2	2	2	0
+Crew	1	1	1	1	1	1	1	1	1	1	1
+Allegiance	I,E,F	I,E,F	F	E	F	F	F	F,E	F	E	I
+Cost	11k	14k	16k	45k	46k	48k	48k	38k	41k	43k	44k
+Jump Rating	IPDRV	IPDRV	IPDRV	1M-13.33	1M-12.50	1M-11.11	1M-11.11	1-8.00	1-7.14	1-6.66	1-6.06
+								2-32.00	2-28.57	2-26.66	2-24.24
+											3-54.54
+
+Ship	Krait	Gecko	Adder	Viper	Cobra1	Moray	Cobra3	Constr	Asp	Tnsptr	Lion
+Hull Mass	8t	11t	15t	15t	15t	17t	20t	30t	30t	40t	65t
+Mass (full)	35t	45t	55t	65t	75t	87t	100t	120t	150t	200t	300t
+Internal Cap	27t	34t	40t	50t	60t	70t	80t	90t	120t	160t	235t
+Retro Thr. Acc	10g	9g	8g	10g	6g	6g	7g	10g	7g	4g	3g
+Main Thr. Acc	20.1g	16.1g	18.1g	24.2g	16.1g	14.1g	20.1g	22.2g	22.2g	9g	5g
+Gun Mounts	1	2	1	1	2	1	2	2	2	3	3
+Scoop Mount	no	no	yes	yes	yes	yes	yes	yes	yes	no	yes
+Missile Pylons	4	1	0	4	2	4	4	2	1	2	8
+Crew	1	1	1	1	1	1	1	2	2	3	4
+Allegiance	I	I	I,F	I,F,E	I,F	I,F	I,F	I,F	I,F	I,F	F
+Cost	50k	66k	73k	87k	97k	109k	124k	143k	187k	241k	348k
+Jump Rating	1-5.71	1-4.44	1-3.63	1-3.07	2-10.66	2-9.19 	2-8.00	2-6.66	2-5.33	2-4.00	3-6.00
+	2-22.85	2-17.77	2-14.54	2-12.30	3-24.00	3-20.68	3-18.00	3-15.00	3-12.00	3-9.00	4-10.66
+	3-51.42	3-40.00	3-32.72	3-27.69	4-42.66	4-36.78	4-32.00	4-26.66	4-21.33	4-16.00	5-16.66
+				4-49.23						5-37.50
+
+									[Not  normally  playable]
+Ship	Tiger	ImpCou	Python	ImpTra	Anac.	Puma	Boa	Panther	Tharg	Lynx	Cruiser
+Hull Mass	80t	130t	100t	175t	150t	175t	200t	225t	38t	1200t	1000t
+Mass (full)	400t	480t	500t	700t	800t	1000t	1500t	1775t	70t	7200t	16000t
+Internal Cap	320t	350t	400t	525t	650t	825t	1300t	2000t	32t	6000t	15000t
+Retro Thr. Acc	5g	6g	4g	4g	3g	3g	4g	3g	121.3g	1.0g	3g
+Main Thr. Acc	12.1g	16.1g	10g	9g	6g	6g	8g	6g	0.1g	3.0g	1g
+Gun Mounts	3+F	1	2+F	1	2+F	4+F	4+F	4	123+F	0	1
+Scoop Mount	yes	no	yes	no	yes	yes	yes	no	yes	no	no
+Missile Pylons	1	6	4	6	8	8	6	8	1638	0	0
+Crew	5	3	7	6	8	9	10	12	22	20	100
+Allegiance	F	E	I	E	I	F	I	F		I,F,E	I,F,E
+Cost	472k	611k	575k	954k	1060k	1265k	2474k	2753k	11k	7228k	16110k
+Jump Rating	3-4.50	3-3.75	3-3.60	4-4.57	4-4.00	4-3.20	8-10.80	8-9.12	4M-68.5	1-0.04	1-0.01
+	4-8.00	4-6.66	4-6.40	5-7.14	5-6.25	5-5.00				6-1.50	6-0.45
+	5-12.50	5-10.41	5-10.00	6-10.28	6-9.00	6-7.20				7-2.04	7-0.61
+	6-18.00	6-15.00	6-14.40	7-14.00	7-12.25	7-9.80				8-3.37	8-1.51
+
+
+
+
+George Hooper
+ghooper@hooplah.com
+
+FRONTIER - ELITE I I EQUIPMENT INFORMATION
+
+								           Jump
+Item	Wt	Cost	Item	Wt	Cost	Item	Wt	Cost    Fuel
+XB13 Dummy Prox Mine	1t	9	Sm Plasma Accel-L blu	500t	270k	Hyper Cloud Anal	1t	1575
+XB74 Proximity Mine	1t	27	Lg Plasma Accel-L blu	900t	540k	Radar Mapper	1t	900
+Energy Bomb	4t	17.1k	Auto Refueler	1t	90	Scanner	1t	630
+KLT60 Homing Missile	1t	45	Atmospheric Shielding	1t	180	Interplanetary Drive	4t	4500
+LV111 Smart Missile	1t	63	Cargo Bay Life Support	1t	540	Class 1 Hyperdrive	10t 	7200	1
+NN500 Naval Missile	1t	90	Energy Booster Unit	5t	9900	Class 2 Hyperdrive	25t	13.5k	4
+Laser Cooling Booster	1t	360	Escape Capsule	5t	18k	Class 3 Hyperdrive	45t	27k	9
+1MW Pulse Laser-red	1t	810	Extra Passenger Cabin	5t	1350	Class 4 Hyperdrive	80t	54k	16
+5MW Pulse Laser-yel	3t	2700	Fuel Scoop	6t	3150	Class 5 Hyperdrive	150t	108k	25
+1MW Beam Laser-red	5t	6300	Cargo Scoop Conver.	2t	3600	Class 6 Hyperdrive	250t	216k	36
+4MW Beam Laser-amb	20t	11.7k	Hull Auto Repair Sys.	40t	15.75k	Class 7 Hyperdrive	400t	432k	49
+20MW Beam Laser-wht	75t	22.5k	Shield Generator	4t	2250	Class 8 Hyperdrive	600t	- na -	81
+100MW Beam Laser-m blu	200t	54k	Automatic Pilot	1t	1260	Class 1 Military Drive	6t	22.5k	1
+30MW Mining Laser-m blu	10t	10.8k	E.C.M. System	2t	1080	Class 2 Military Drive	12t	45k	4
+MB4 Mining Machine	30t	5850	Naval E.C.M. System	2t	13.5k	Class 3 Military Drive	24t	90k	9
+
+Equipment Items -  not normally available
+
+		              Jump
+Item	Wt	Cost	Fuel
+
+Fighter Launch Device	100t	225k
+Class 4 Military Drive	42t	- na -	 16
+
+
+
+FRONTIER: ELITE I I - RATINGS AND RANKINGS
+
+	Rating	Points	Rating	Points
+	Harmless	0	Above Average	64
+	Mostly Harmless	4	Competent	128
+	Poor	8	Dangerous	1000
+	Below Average	16	Deadly	3000
+	Average	32	Elite	6000
+
+	Rank	Points	Rank	Points
+	None - Outsider	0	Lieutenant - Viscount	2401
+	Private - Serf	1	Lt Commander - Count	4096
+	Corporal - Master	16	Captain - Earl	6561
+	Sergeant - Sir	81	Commodre - Marquis	10,000
+	Sgt. Major - Squire	256	Rear Admiral - Duke	14,641
+	Major - Lord	625	Admiral - Prince	20,736
+	Colonel - Baron	1296
+
+
+
+
+
+
+
+
+
+
+George Hooper
+ghooper@hooplah.com

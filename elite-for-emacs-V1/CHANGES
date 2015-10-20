@@ -1,0 +1,69 @@
+Major changes since Elite for EMACS version 0.8
+
+Version 0.10.1
+
+-migration to EMACS 21.2.1
+-widget based user interface
+-other appearance changes
+-AI commander roaming improvements
+
+Version 0.10.0
+
+-AI commanders can buy fuel scoops and large cargo bay
+-AI commanders can procreate with other AI commanders,
+ procreation generates new AI commander to galaxy
+-player can procreate with AI commander of opposite sex
+
+Version 0.8.7
+
+-added preachers that sometimes offers words of wisdom
+ (requires faith.el)
+-added AI commanders that roam and trade in galaxy 1
+-added elite-talk-to-commander commander for interacting with
+ AI commanders
+-added elite-display-ai-commanders command, displays commanders 
+ in current station
+-commanders have now gender
+
+Version 0.8.6
+
+-added welcome message from the Elite Federation of Pilots
+-user interface uses windows/buffers
+-added new ship graphics (thanks to The Great Ascii Art Library 
+ http://www.geocities.com/SouthBeach/Marina/4942/)
+-added elite-quit command
+
+Version 0.8.5
+
+-added special mission
+-some bug fixes
+
+Version 0.8.4
+
+-removed GPL
+-remove COPYING file from distribution
+
+Version 0.8.3
+
+-reputation and legal status affects to offered missions
+-added new deliverable items
+-added passenger transport missions
+-increased commander loading time
+-added 7 other galaxies
+-added command elite-galactic-jump, keybinding M-g
+
+Version 0.8.2
+
+-Elite for EMACS is now under GNU General Public License (GPL)
+-added COPYING file to distribution
+-simple graphics/animation for combat
+-added new ships
+
+Version 0.8.1
+
+-player can use missiles in combat
+-enemy can have beam/military laser
+-changed keybinding for elite-hyperspace-to from C-h to M-h
+-changed keybinding for elite-show-help from M-h to C-cC-h
+-variables for background and foreground colors
+-added README and CHANGES to distribution

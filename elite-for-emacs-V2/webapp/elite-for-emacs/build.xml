@@ -1,0 +1,72 @@
+<project name="elite-for-emacs" default="compile" basedir=".">
+
+
+  <target name="init">
+         <tstamp/>
+         <property name="name" value="elite-for-emacs" />
+         <property name="src.dir" value="${basedir}/src" />
+         <property name="deploy.home" value="${basedir}/deploy" />
+         <property name="jar.dir" value="${basedir}/jar" />
+         <property name="tomcat.home" value="c:/_user/Apps/jakarta-tomcat-4.1.12/webapps" />
+         <property name="build.dir" value="${basedir}/classes" />
+         <property name="doc.dir" value="${basedir}/docs" />
+         <property name="classpath" value="" />
+
+         <property name="deprecation" value="off" />
+      <property name="classpath-dir"  location="c:/_user/mpic/development/classpath"/>
+
+
+    <!-- Project class path, relative pointing to classpath directory-->
+    <path id="project.class.path">
+	<fileset dir="${classpath-dir}">
+	    <include name="**/*.jar"/>
+	</fileset>
+    </path>
+
+   </target>
+
+
+  <target name="prepare" depends="init">
+    <mkdir  dir="${deploy.home}"/>
+    <copy todir="${deploy.home}">
+      <fileset dir="web"/>
+    </copy>
+    <mkdir  dir="${deploy.home}/WEB-INF"/>
+    <copy todir="${deploy.home}/WEB-INF/">
+      <fileset dir="etc"/>
+    </copy>
+    <mkdir  dir="${deploy.home}/WEB-INF/classes"/>
+    <mkdir  dir="${deploy.home}/WEB-INF/classes/lib"/>
+    <copy todir="${deploy.home}/WEB-INF/classes/lib">
+      <fileset dir="thirdpartylib"/>
+    </copy>
+  </target>
+
+
+  <target name="clean">
+    <delete dir="${deploy.home}"/>
+  </target>
+
+
+  <target name="compile" depends="prepare">
+    <javac srcdir="src" destdir="${deploy.home}/WEB-INF/classes"
+    				classpath="${project.class.path};c:/_user/mpic/development/classpath/j2ee.jar" 
+
+           debug="on" optimize="off" deprecation="off"/>
+  </target>
+
+
+  <target name="dist" depends="prepare,compile">
+    <jar jarfile="${jar.dir}/${name}.war"
+         basedir="${deploy.home}" includes="**/*"/>
+  </target>
+
+  <target name="deploy" depends="compile">
+    <mkdir  dir="${tomcat.home}/${name}"/>
+    <copy todir="${tomcat.home}/${name}">
+      <fileset dir="deploy"/>
+    </copy>
+      
+  </target>
+
+</project>

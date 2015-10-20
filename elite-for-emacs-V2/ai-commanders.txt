@@ -1,0 +1,27 @@
+elite AI commanders
+
+
+-Commanders are part of The Elite Federation of Pilots
+   -Elite Federation is exclusive club, only Cobra Mk III owners can be there
+
+-all commanders have cobra mkIII
+-x commanders in universe
+-commanders may freely travel between galaxies if they have bough galactic hyperdrive
+-commanders do trading
+-commanders transport people
+-equips ship
+-keeps log where commander have been, what people has he seen (people with mission info)
+-player can ask other commander questions when meeting in space station
+	-have you seen this person <name>?
+	-other questions...
+-
+
+-commander attributes
+	   -trading
+		-prefers legal/illegal
+		-2 (one agri, one industrial) hardcoded trade item preferences (furs, computers, food, etc)
+		-moves from system to another or stays between couple of systems
+		-takes only first item, some parameters for which item to buy and where to go
+	   -transporting passengers, take straight route to destination, trades between systems that
+	    are in route
+	 

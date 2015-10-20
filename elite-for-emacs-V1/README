@@ -1,0 +1,45 @@
+Elite for EMACS v. 0.10.1
+
+Installation
+
+Add these lines to .emacs
+(add-to-list 'load-path (expand-file-name "~/elite-for-emacs-0.10.1"))
+(require 'elite)
+
+If faith.el (http://www.glue.umd.edu/~deego/emacspub/faith/) is
+in your load path add following to enable preacher. Add
+(setq elite-encounter-preacher t) to .emacs
+
+Features
+
+ - 8 galaxies, 256 systems in each galaxy 
+ - Trading 
+ - Combat 
+ - Combat status, legal status and reputation
+ - AI Commanders trading/roaming/procreating in galaxy 1
+ - Combat graphics/animation 
+ - Window & widget based user interface
+ - Delivery missions 
+ - Passenger transport missions
+ - 1 special mission
+
+Notes
+
+Functional equipment:
+	-missiles
+	-fuel scoops
+	-front lasers
+	-large cargo bay
+	-energy unit
+	-galactic hyperdrive
+
+Reputation is gained when successfully completing missions.
+
+There are currently 64 AI commanders in the galaxy 1, other
+galaxies are not yet available for AI commanders. Commanders 
+trade and roam galaxy following simple rules. AI commanders can 
+also procreate with each other. Player can also have offspring 
+with other commanders (of opposite sex).
+
+Elite is developed using GNU Emacs 21.2.1 (i686-pc-linux-gnu, 
+X toolkit, Xaw3d scroll bars) of 2002-05-19 on linux.
