@@ -9,6 +9,21 @@ See my blog post: [sami.salkosuo.net/elite-for-emacs](http://sami.salkosuo.net/e
 If you know Emacs then instructions in [elite-for-emacs-V1/README](https://github.com/samisalkosuo/elite-for-emacs/blob/master/elite-for-emacs-V1/README) and [elite-for-emacs-V2/elite-for-emacs.el](https://github.com/samisalkosuo/elite-for-emacs/blob/master/elite-for-emacs-V2/elite-for-emacs.el) 
 make sense and you can try and play Elite for EMACS.
 
+## Docker
+
+It's easy to try out Elite for Emacs (V1) using Docker and browser.
+
+- Pull Docker image:
+  - *docker pull kazhar/elite-for-emacs*
+- Run container:
+  - *docker run -d -p 6901:6901 kazhar/elite-for-emacs*
+- Access container, and Elite for Emacs, using your browser:
+  - [http://localhost:6901/?password=vncpassword](http://localhost:6901/?password=vncpassword)
+  - Assumes container runs on localhost. If not, change localhost to correct address.
+
+Note that if you save commander, it is saved in the container. If you stop the container, all saves are lost.
+Container is stopped if you exit Emacs using C-x C-c.
+
 ## Future
 I have currently no plans to continue working with this and I make the code available for historic reasons and in the hope that 
 some one finds even a small amount of enjoyment out of Elite for EMACS.
